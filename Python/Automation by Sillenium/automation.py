@@ -11,5 +11,5 @@ assert 'Show Message' in chrome_driver.page_source
 
 user_message = chrome_driver.find_element_by_id('user-message')
 user_message.clear()
-user_message.send_keys('I am kayes Fahim')
+user_message.send_keys('Automated Text Sending')
 
